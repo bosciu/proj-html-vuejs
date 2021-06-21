@@ -30,14 +30,14 @@ export default {
 	width: 80%;
 	height: 500px;
 	margin: auto;
+	margin-bottom: 10%;
 	border-radius: 8px;
 	background: $ligthBlueBackground;
 	#text-container {
 		width: 50%;
 		padding: 50px;
 		p {
-			margin-bottom: 3rem;
-			color: $lightGreyText;
+			margin: 2rem 0 3rem;
 		}
 	}
 	#img-container {

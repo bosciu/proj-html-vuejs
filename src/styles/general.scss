@@ -5,6 +5,7 @@
 @import "~@fontsource/roboto/900.css";
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.css";
+@import "./variables";
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,8 +18,11 @@
         font-size: 4rem;
         font-weight: 400;
     }
+    h3 {
+        font-weight: 400;
+    }
     p {
-        margin-top: 2rem;
-        font-size: 20px;
+        font-size: 18px;
+        color: $lightGreyText;
     }
 }

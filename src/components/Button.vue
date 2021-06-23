@@ -23,8 +23,12 @@ button {
 	background-color: $buttonPrimary;
 	color: white;
 	caret-color: transparent;
+	transition: 0.3s;
 	&:focus-visible {
 		outline: unset;
+	}
+	&:hover {
+		background: $buttonHover;
 	}
 }
 </style>

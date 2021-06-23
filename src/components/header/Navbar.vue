@@ -2,8 +2,13 @@
 	<div id="navbar" class="d-flex align-items-center">
 		<nav>
 			<ul>
-				<li v-for="link in links" :key="link.name">
-					{{ link.name }}
+				<li v-for="(link, index) in links" :key="link.name">
+					<a
+						:href="link.url"
+						:class="link.active ? 'active' : ''"
+						@click="$emit('changeActive', index)"
+						>{{ link.name }}</a
+					>
 				</li>
 			</ul>
 		</nav>
@@ -32,6 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../styles/variables.scss";
 #navbar {
 	margin-left: auto;
 	nav {
@@ -44,6 +50,15 @@ export default {
 				font-size: 17px;
 				font-weight: 500;
 				cursor: pointer;
+				.active::after {
+					content: "";
+					display: block;
+					position: relative;
+					top: 15px;
+					width: 100%;
+					height: 2px;
+					background-color: $buttonPrimary;
+				}
 			}
 		}
 	}

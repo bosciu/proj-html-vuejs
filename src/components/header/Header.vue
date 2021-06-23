@@ -4,7 +4,7 @@
 			<div id="logo-container" class="h-100">
 				<img src="../../assets/images/logo-2.png" alt="Sofbox" />
 			</div>
-			<Navbar :links="headerLinks" />
+			<Navbar :links="headerLinks" @changeActive="changeActive" />
 		</div>
 		<Jumbotron />
 	</header>
@@ -29,6 +29,14 @@ export default {
 				{ name: "Contact us", url: "#", active: false }
 			]
 		};
+	},
+	methods: {
+		changeActive(index) {
+			this.headerLinks.forEach((link) => {
+				link.active = false;
+			});
+			this.headerLinks[index].active = true;
+		}
 	}
 };
 </script>

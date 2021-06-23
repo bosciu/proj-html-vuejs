@@ -17,7 +17,7 @@
 					<ul>
 						<li>Menu</li>
 						<li v-for="(link, index) in links[0]" :key="index">
-							{{ link.page }}
+							<a :href="link.url">{{ link.page }}</a>
 						</li>
 					</ul>
 				</div>
@@ -25,7 +25,7 @@
 					<ul>
 						<li>About Us</li>
 						<li v-for="(link, index) in links[1]" :key="index">
-							{{ link.page }}
+							<a :href="link.url">{{ link.page }}</a>
 						</li>
 					</ul>
 				</div>
@@ -33,7 +33,7 @@
 					<ul>
 						<li>Quick Links</li>
 						<li v-for="(link, index) in links[0]" :key="index">
-							{{ link.page }}
+							<a :href="link.url">{{ link.page }}</a>
 						</li>
 					</ul>
 				</div>

@@ -120,14 +120,20 @@ export default {
 		}
 	}
 	.card {
+		float: left;
 		width: calc(100% / 4 - 30px);
 		margin: 15px;
 		padding: 25px 20px 40px;
 		border: none;
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 10%);
-		float: left;
+		transition: 0.5s;
+		cursor: pointer;
 		img {
 			width: 20%;
+		}
+		&:hover {
+			background-color: $featuresHover;
+			box-shadow: 10px 10px 15px #6cdac190;
 		}
 	}
 }

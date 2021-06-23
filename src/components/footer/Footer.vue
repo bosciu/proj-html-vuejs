@@ -20,45 +20,45 @@ export default {
 				[
 					{
 						page: "About Us",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "Theme",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "Features",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "Pricing",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "Blog",
-						link: "#"
+						url: "#"
 					}
 				],
 				[
 					{
 						page: "About Sofbox",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "Roadmap",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "How it Work",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "Team",
-						link: "#"
+						url: "#"
 					},
 					{
 						page: "News",
-						link: "#"
+						url: "#"
 					}
 				]
 			]

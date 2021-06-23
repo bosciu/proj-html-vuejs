@@ -8,7 +8,7 @@
 				website,<br />take a look at this beautiful-crafted
 			</p>
 			<div class="review">
-				<img src="../../assets/images/26.jpeg" alt="" />
+				<img src="../../assets/images/26.jpeg" alt="Woman" />
 				<img
 					src="../../assets/images/quotation.png"
 					alt=""
@@ -24,7 +24,7 @@
 				<div class="third-card"></div>
 			</div>
 			<div class="review r-right">
-				<img src="../../assets/images/25.jpeg" alt="" />
+				<img src="../../assets/images/25.jpeg" alt="Man" />
 				<img
 					src="../../assets/images/quotation.png"
 					alt=""

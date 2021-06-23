@@ -8,7 +8,7 @@
 			</p>
 			<div id="reporting-analysis" class="d-flex align-items-center">
 				<div class="img-container">
-					<img src="../../assets/images/510.png" alt="" />
+					<img src="../../assets/images/510.png" alt="Stats" />
 				</div>
 				<div class="text-container">
 					<h3>Reporting Analysis</h3>
@@ -21,7 +21,7 @@
 			</div>
 			<div id="technical-seo" class="d-flex align-items-center">
 				<div class="img-container">
-					<img src="../../assets/images/511.png" alt="" />
+					<img src="../../assets/images/511.png" alt="Bill" />
 				</div>
 				<div class="text-container">
 					<h3>Technical SEO Audit</h3>
@@ -34,7 +34,7 @@
 			</div>
 		</div>
 		<div class="col-6" id="img-container">
-			<img src="../../assets/images/509.jpeg" alt="" />
+			<img src="../../assets/images/509.jpeg" alt="Worker" />
 		</div>
 	</section>
 </template>

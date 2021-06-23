@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col">
 				<span>{{ dataCorrente }}</span>
-				<img src="../../assets/images/19.jpg" alt="" />
+				<img src="../../assets/images/19.jpg" alt="Post" />
 				<h3>Life Lack Meaning</h3>
 				<p>
 					It is a long established fact that a reader will be
@@ -16,7 +16,7 @@
 			</div>
 			<div class="col">
 				<span>{{ dataCorrente }}</span>
-				<img src="../../assets/images/18.jpg" alt="" />
+				<img src="../../assets/images/18.jpg" alt="Post" />
 				<h3>Life Lack Meaning</h3>
 				<p>
 					It is a long established fact that a reader will be
@@ -25,7 +25,7 @@
 			</div>
 			<div class="col">
 				<span>{{ dataCorrente }}</span>
-				<img src="../../assets/images/17.jpg" alt="" />
+				<img src="../../assets/images/17.jpg" alt="Post" />
 				<h3>Life Lack Meaning</h3>
 				<p>
 					It is a long established fact that a reader will be
@@ -62,6 +62,7 @@ export default {
 		padding: 15px;
 		border: 1px solid #0000000d;
 		border-radius: 8px;
+		cursor: pointer;
 		span {
 			position: absolute;
 			margin: 10px;

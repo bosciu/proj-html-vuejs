@@ -10,7 +10,9 @@
 					</p>
 					<span
 						>Copyright <em>@</em> 2018
-						<span class="color-text">Sofbox</span></span
+						<a href="#"
+							><span class="color-text">Sofbox</span></a
+						></span
 					>
 				</div>
 				<div class="col-3">
@@ -81,6 +83,10 @@ export default {
 				margin: 10px 0;
 				color: $lightGreyText;
 				cursor: pointer;
+				transition: 0.3s;
+				&:hover {
+					color: $buttonPrimary;
+				}
 			}
 		}
 	}

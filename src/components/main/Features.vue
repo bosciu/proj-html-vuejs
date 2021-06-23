@@ -35,7 +35,7 @@
 					</h4>
 					<img
 						:src="require('../../assets/images' + feature.imgPath)"
-						alt=""
+						:alt="feature.id"
 					/>
 				</div>
 			</div>

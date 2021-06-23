@@ -2,7 +2,7 @@
 	<header>
 		<div id="header-top" class="container d-flex align-items-center">
 			<div id="logo-container" class="h-100">
-				<img src="../../assets/images/logo-2.png" alt="Sofbox" />
+				<img src="../../assets/images/logo-2.png" alt="Sofbox logo" />
 			</div>
 			<Navbar :links="headerLinks" @changeActive="changeActive" />
 		</div>

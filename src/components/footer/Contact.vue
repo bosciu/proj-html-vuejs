@@ -27,46 +27,18 @@
 					<i class="fab fa-instagram"></i>
 				</div>
 				<h3>Get in Touch</h3>
-				<form @submit.prevent>
-					<div class="mb-4 name-email">
-						<input
-							type="text"
-							class="form-control"
-							placeholder="Your Name"
-						/>
-						<input
-							type="email"
-							class="form-control"
-							placeholder="Your Email"
-						/>
-					</div>
-					<div class="mb-4 subject">
-						<input
-							type="text"
-							class="form-control"
-							placeholder="Your Subject"
-						/>
-					</div>
-					<div class="mb-4 text-area">
-						<textarea
-							class="form-control"
-							aria-label="With textarea"
-							placeholder="Your Message"
-						></textarea>
-					</div>
-					<Button msg="Send Message" />
-				</form>
+				<Form />
 			</div>
 		</div>
 	</section>
 </template>
 
 <script>
-import Button from "../Button";
+import Form from "./Form";
 export default {
 	name: "Contact",
 	components: {
-		Button
+		Form
 	}
 };
 </script>
@@ -105,22 +77,6 @@ export default {
 			text-align: center;
 			color: $buttonPrimary;
 			cursor: pointer;
-		}
-	}
-	form {
-		input,
-		textarea {
-			padding: 10px 15px;
-		}
-		.name-email {
-			display: flex;
-			justify-content: space-between;
-			.form-control {
-				width: 45%;
-			}
-		}
-		textarea {
-			min-height: 200px;
 		}
 	}
 }
